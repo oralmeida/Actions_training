@@ -45,7 +45,8 @@ jobs:
       - run: |
           echo "🧪 Testing..."
           sleep 15
-          exit 1
+          # uncomment to force failure
+          # exit 1
 
   Production:
     runs-on: ubuntu-latest
